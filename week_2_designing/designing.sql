@@ -1,1 +1,1 @@
-SELECT "title", "author" FROM "longlist" LIMIT 5;
+DROP TABLE "visits";
