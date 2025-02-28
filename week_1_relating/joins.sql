@@ -1,3 +1,3 @@
 SELECT *
 FROM "sea_lions"
-    NATURAL JOIN "migrations";
+    LEFT JOIN "migrations" ON "migrations"."id" = "sea_lions"."id";
